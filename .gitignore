@@ -1,1 +1,4 @@
 /.idea/*
+/tfs/.terraform/*
+/tfs/.terraform*
+/tfs/terraform*
