@@ -13,7 +13,7 @@ resource "aws_eks_cluster" "test-eks-cluster" {
   role_arn = aws_iam_role.test-iam-role-eks-cluster.arn
 
   # eks cluster의 버전
-  version = "1.21"
+  version = "1.28"
 
   # aws cloud watch 에서 볼 수 있는 EKS Controlplane 로그 항목들
   enabled_cluster_log_types = ["api", "audit", "authenticator", "controllerManager", "scheduler"]
